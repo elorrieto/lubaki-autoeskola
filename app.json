@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Lubaki Autoeskola",
+    "slug": "lubaki",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lubaki-autoeskola",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A2463"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.lubaki.autoeskola"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#0A2463"
+      },
+      "package": "com.lubaki.autoeskola"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "31598c9d-ebe5-45e4-affe-5cf95697ef12"
+      }
+    }
+  }
+}
